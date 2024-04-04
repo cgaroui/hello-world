@@ -6,7 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello JS</h1>
-    <script src="js/main.js"></script>
+    <h1>Description du DOM</h1>
+    
+    <ul>
+        <li>
+            le DOM est une interface de programmation 
+        </li>
+        <li>
+            l'acronyme signifie : Document Objet Model
+        </li>
+        <li>
+            il represente les noeuds interconnectés(balises) d'une page HTML
+        </li>
+    </ul>
+    <script src="js/main.js">
+        let list = dicument.querySelector("ul")
+        let listElements = list.querySelectorAll("li")
+
+        console.log("la liste",list)
+        console.log("les elments", listElements)
+    </script>
 </body>
 </html>
